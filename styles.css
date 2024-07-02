@@ -62,10 +62,9 @@ footer {
     font-size: larger;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap'); */
 
 body {
-    font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 1rem;
     background-color: #fffcfc;
@@ -88,7 +87,7 @@ body {
 
 .nav-items {
     display: flex;
-    gap: 20px;
+    gap: 10px;
     font-weight: bold;
     color: #5c5959; 
     font-size: larger;
@@ -97,12 +96,17 @@ body {
     border: 1px solid;
     border-radius: 30px;
     height: max-content;
-    background-color: rgb(60, 60, 60);
+    background-color: rgb(116 112 112);
+}
+.navchild:hover{
+    background-color: burlywood;
+    cursor: pointer;
 }
 .inner-p{
     margin: 0;
     padding: 10px 15px;
     color: white;
+    font-size: large;
 }
 
 .profile {
@@ -124,12 +128,14 @@ body {
     font-weight: bold;
     color: #5c5959;
     margin: 0;
+    line-height: 1.5;
 }
 
 #p2 {
    font-weight: bolder; 
    font-size: xx-large;
    margin: 0;
+   line-height: 1.5;
 }
 
 #p3 {
@@ -137,10 +143,14 @@ body {
     color: #5c5959;
     font-size: x-large;
     margin: 0;
+    line-height: 1.5;
+    
 }
 
 #p4 {
     font-weight: 500;
+    font-size: large;
+    line-height: 1.5;
 }
 
 .profile-details {
@@ -150,10 +160,15 @@ body {
     border-radius: 20px; 
     padding: 10px;
     margin-top: 1rem;
+    line-height: 1.5;
+    font-size: large;
 }
 
 .goals, .links {
     margin-top: 2rem;
+    font-size: large;
+    font-weight: 500;
+    line-height: 1.5;
 }
 
 footer {
