@@ -72,7 +72,7 @@ body {
 }
 
 .container {
-    background-color: #dcdcdc06;
+    background-color: #be212106;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 20px;
     max-width: 1200px;
@@ -92,6 +92,17 @@ body {
     font-weight: bold;
     color: #5c5959; 
     font-size: larger;
+}
+.navchild{
+    border: 1px solid;
+    border-radius: 30px;
+    height: max-content;
+    background-color: rgb(60, 60, 60);
+}
+.inner-p{
+    margin: 0;
+    padding: 10px 15px;
+    color: white;
 }
 
 .profile {
@@ -175,8 +186,7 @@ footer {
 
 @media (max-width: 480px) {
     .nav-items {
-        flex-direction: column;
-        gap: 10px;
+        align-self: center;
         font-size: medium;
     }
 
